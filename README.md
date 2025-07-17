@@ -1,6 +1,14 @@
 # 🎲 ArbFinder: Arbitrage Bot for Probo & Polymarket
 
-> 🚧 **Side Quest Project** — Exploring the mechanics of opinion markets and the possibility of guaranteed profit through arbitrage.
+> This project began as a **Side Quest Project** to understand:
+
+How prediction markets derive their odds
+
+Whether efficient market hypothesis holds in these platforms
+
+The mechanics of cross-platform arbitrage
+
+It's not about gambling, but about exploring market microstructure and behavioral economics.
 
 ## 🧠 Overview
 
@@ -26,6 +34,21 @@ Suppose:
 - Polymarket offers 45% odds on "Team A loses"
 
 ArbFinder detects that betting appropriately on both sides can yield a net profit due to the pricing gap.
+
+---
+---
+
+## 🙅‍♂️ Disclaimer: I'm a Coder, Not a Gambler 🎩💻
+
+Let’s get one thing straight:
+
+> 🧑‍💻 I’m not a gambler — I’m a software engineer with a curious mind and a knack for spotting patterns.
+
+This project is my way of poking around the world of opinion markets using code, not chips. I’m just applying my engineering skills to explore whether **math + market inefficiencies = money**.
+
+So while this tool might sniff out arbitrage opportunities, it’s not an invitation to gamble. I don’t support gambling, and I strongly advise against it. This is a **side quest**, not a casino heist. 🎮
+
+Use responsibly. Learn deeply. Code boldly.
 
 ---
 
