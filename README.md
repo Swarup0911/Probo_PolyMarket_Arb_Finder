@@ -1,4 +1,4 @@
-# 🎲 ArbQuest: Probo ↔ Polymarket Arbitrage Finder
+# 🎲 ArbFinder: Probo ↔ Polymarket Arbitrage Finder
 
 > 💡 *A data-driven side quest to explore the mechanics of opinion markets, betting asymmetries, and platform inefficiencies — **not** a guide to gambling.*
 
@@ -46,8 +46,11 @@ But when crowd sentiment diverges across platforms, **can that disagreement be u
 -------------------------------------------
 🟢 Arb Found: "Team A to Win"
 Probo: 65% (YES)     Polymarket: 38% (NO)
+
 ➡️ Bet $58 on Probo YES | $42 on Poly NO
+
 ✅ Guaranteed Profit: $3.20 (3.2%)
+
 -------------------------------------------
 
 ## 🙅‍♂️ Disclaimer: I'm a Coder, Not a Gambler 🎩💻
