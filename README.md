@@ -1,55 +1,73 @@
-# 🎲 ArbFinder: Arbitrage Bot for Probo & Polymarket
+# 🎲 ArbQuest: Probo ↔ Polymarket Arbitrage Finder
 
-> This project began as a **Side Quest Project** to understand:
-
-How prediction markets derive their odds
-
-Whether efficient market hypothesis holds in these platforms
-
-The mechanics of cross-platform arbitrage
-
-It's not about gambling, but about exploring market microstructure and behavioral economics.
-
-## 🧠 Overview
-
-**ArbFinder** is a research-driven tool designed to identify arbitrage opportunities between two popular opinion-based gambling platforms: [Probo](https://probo.in) and [Polymarket](https://polymarket.com). It analyzes market discrepancies and helps place offsetting bets on both platforms to lock in a **guaranteed profit**, regardless of the outcome.
-
-This project is not intended to promote gambling, but rather to explore the underlying dynamics of prediction markets and how pricing inefficiencies can be leveraged.
+> 💡 *A data-driven side quest to explore the mechanics of opinion markets, betting asymmetries, and platform inefficiencies — **not** a guide to gambling.*
 
 ---
 
-## ⚙️ How It Works
+## 📌 Project Overview
 
-1. **Market Scraping**: Fetches real-time odds and market data from Probo and Polymarket.
-2. **Arbitrage Detection**: Compares prices to identify mismatches where betting on both sides yields a profit.
-3. **Bet Placement Logic**: Calculates optimal stake distribution to ensure profit regardless of the result.
-4. **Profit Estimation**: Displays expected returns and risk-free profit margins.
+**ArbQuest** is a lightweight tool that detects arbitrage opportunities between two popular opinion platforms: [Probo](https://probo.in) and [Polymarket](https://polymarket.com).  
+It automatically scans live events, compares odds, and calculates profitable scenarios where **placing opposing bets on both platforms** guarantees a profit — irrespective of the outcome.
+
+This is not a betting engine — it's a window into how **market sentiment**, **behavioral pricing**, and **platform inefficiencies** play out in the real world.
+
+---
+## 🧠 Why This Exists
+
+This project started as a **personal side quest** into how opinion-based platforms operate.  
+Platforms like **Probo** and **Polymarket** allow users to express beliefs about real-world outcomes.  
+But when crowd sentiment diverges across platforms, **can that disagreement be used to hedge perfectly and guarantee profit?**
 
 ---
 
-## 📈 Example
+### ❓ Key Questions Explored
 
-Suppose:
-- Probo offers 60% odds on "Team A wins"
-- Polymarket offers 45% odds on "Team A loses"
+- 📉 **Does the Efficient Market Hypothesis apply to opinion markets?**  
+  Are these platforms truly efficient, or do they allow pricing anomalies?
 
-ArbFinder detects that betting appropriately on both sides can yield a net profit due to the pricing gap.
+- 🔄 **Can cross-platform price discrepancies be systematically identified?**  
+  Is there a repeatable way to detect and capitalize on mismatched odds?
+
+- 👨‍💻 **What tools are needed to test and exploit those inefficiencies safely?**  
+  From APIs to smart contracts, what infrastructure is required for real-time arbitrage?
 
 ---
+> 💬 Think of it as **financial spelunking** — but with a keyboard instead of a pickaxe.
 ---
+
+## 🚀 Features
+
+- 🔍 **Live Market Scanner** – Continuously monitors both platforms for matching events.
+- 📈 **Arbitrage Detector** – Calculates spreads and finds profitable bet splits with guaranteed returns.
+- 💸 **Bet Calculator** – Tells you exactly how much to stake on each side to lock in profit.
+- 🤖 **Order Assist (WIP)** – Automates the placing of orders on both platforms (requires wallet/API access).
+- ⚠️ **Safety Net** – Warns if liquidity is too low or spread isn't viable.
+
+-------------------------------------------
+🟢 Arb Found: "Team A to Win"
+Probo: 65% (YES)     Polymarket: 38% (NO)
+➡️ Bet $58 on Probo YES | $42 on Poly NO
+✅ Guaranteed Profit: $3.20 (3.2%)
+-------------------------------------------
 
 ## 🙅‍♂️ Disclaimer: I'm a Coder, Not a Gambler 🎩💻
 
 Let’s get one thing straight:
 
-> 🧑‍💻 I’m not a gambler — I’m a software engineer with a curious mind and a knack for spotting patterns.
+🧑‍💻 I’m *not* a gambler — I’m a software engineer with a curious mind and a knack for spotting patterns.  
+This project is my way of poking around the world of **opinion markets** using **code**, not chips.
 
-This project is my way of poking around the world of opinion markets using code, not chips. I’m just applying my engineering skills to explore whether **math + market inefficiencies = money**.
-
-So while this tool might sniff out arbitrage opportunities, it’s not an invitation to gamble. I don’t support gambling, and I strongly advise against it. This is a **side quest**, not a casino heist. 🎮
-
-Use responsibly. Learn deeply. Code boldly.
+I’m just applying my engineering skills to explore whether:  
+**math + market inefficiencies = money?**
 
 ---
 
+So while this tool might sniff out arbitrage opportunities between platforms like **Probo** and **Polymarket**,  
+⚠️ **it is *not* an invitation to gamble.**
 
+I do **not** support gambling, and I **strongly advise against it**.
+
+This is a side quest — not a casino heist. 🎮  
+Use responsibly. Learn deeply. Code boldly.
+
+---
