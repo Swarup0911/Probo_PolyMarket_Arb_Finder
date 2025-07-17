@@ -44,12 +44,22 @@ But when crowd sentiment diverges across platforms, **can that disagreement be u
 - ⚠️ **Safety Net** – Warns if liquidity is too low or spread isn't viable.
 
 -------------------------------------------
-🟢 Arb Found: "Team A to Win"
-Probo: 65% (YES)     Polymarket: 38% (NO)
+## 🟢 Arb Opportunity Found: "Team A to Win"
 
-➡️ Bet $58 on Probo YES | $42 on Poly NO
+Two platforms, two opinions — one guaranteed profit.
 
-✅ Guaranteed Profit: $3.20 (3.2%)
+| Platform     | Market Position | Odds     |
+|--------------|------------------|----------|
+| Probo        | YES              | 65%      |
+| Polymarket   | NO               | 38%      |
+
+➡️ **Optimal Bet Strategy**  
+- 💰 Bet **$58** on **Probo (YES)**  
+- 💰 Bet **$42** on **Polymarket (NO)**
+
+✅ **Guaranteed Profit**: **$3.20** (**3.2% ROI**) — no matter who wins!
+
+This is the kind of arbitrage ArbFinder detects and helps you act on.
 
 -------------------------------------------
 
